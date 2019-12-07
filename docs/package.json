@@ -1,0 +1,11 @@
+{
+  "name": "js-demo",
+  "version": "0.1",
+  "repository": "",
+  "author": "@takeshi-du",
+  "scripts": {
+    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
+  },
+  "devDependencies": {}
+}
