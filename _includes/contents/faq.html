@@ -1,1 +1,23 @@
-<h1>faq</h1>
+<section class="block-faq block-padding">
+  <div class="block-header">
+    <div class="section-title">
+      <h1>FAQ</h1>
+      <p>よくある質問</p>
+    </div>
+  </div>
+  <div class="block-body">
+    <div class="container">
+      {% for i in (1..6) %}
+      <div class="block-faq__q">
+        <p class="">Q</p>
+        <p>質問の内容</p>
+        <p data-toggle="switch" data-target="faq-1">＋</p>
+      </div>
+      <div id="faq-1" class="block-faq__a">
+        <p>A</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, saepe. Assumenda qui, consequatur quasi at cumque quidem saepe quia praesentium animi maiores.</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

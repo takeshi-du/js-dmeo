@@ -1,0 +1,15 @@
+/*
+* === block ===
+*/
+.block-padding{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.block-body{
+  margin-top: 40px;
+}
+
+@import 'block-contact';
+@import 'block-faq';
+@import 'block-service';
+@import 'block-work';

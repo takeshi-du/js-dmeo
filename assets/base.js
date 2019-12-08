@@ -1,5 +1,22 @@
 window.addEventListener('load', function() {
   // ------------------------------------
+  // switch
+  // ------------------------------------
+  var btnSwitch = document.querySelectorAll('[data-toggle="switch"]');
+  // overlay event
+  for (var i = 0, len = btnSwitch.length; i < len; i++) {
+    btnSwitch[i].addEventListener('click', function(event) {
+      // prevent link
+      event.preventDefault();
+      // set Target
+      var switchTarget = document.getElementById(event.target.getAttribute('data-target'));
+      // when null
+      if (!switchTarget) return;
+      // toggle Class on Target
+      switchTarget.classList.toggle('is-active');
+    });
+  }
+  // ------------------------------------
   // drawer
   // ------------------------------------
   var btnDrawer = document.querySelectorAll('[data-toggle="drawer"]');

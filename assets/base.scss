@@ -18,10 +18,11 @@
 
 @import "bst4/normalize";
 @import "bst4/grid";
-// @import "bst4/display";
-// @import "bst4/flex";
-// @import "bst4/spacing";
-// @import "bst4/nav";
+@import "bst4/display";
+@import "bst4/flex";
+@import "bst4/spacing";
+@import "bst4/nav";
 
 @import 'components/components';
 @import 'javascript/javascript';
+@import 'block/block';

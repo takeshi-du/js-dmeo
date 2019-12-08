@@ -1,1 +1,23 @@
-<h1>service</h1>
+<section class="block-service block-padding">
+  <div class="section-title">
+    <h1>SERVICE</h1>
+    <p>サービス</p>
+  </div>
+  <div class="block-body">
+    {% for i in (1..3) %}
+      <div class="row no-gutters">
+        <div class="col-12 col-lg-7 {% if i == 2 %}order-lg-2{% endif %}">
+          <div class="block-service__image">
+            <img class="img-fluid" src="https://placehold.it/800x400" alt="image">
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 {% if i == 2 %}order-lg-1{% endif %}">
+          <div class="block-service__content">
+            <h2>1.サービス内容</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, saepe. Assumenda qui, consequatur quasi at cumque quidem saepe quia praesentium animi maiores.</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
