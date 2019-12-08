@@ -35,4 +35,13 @@ window.addEventListener('load', function() {
       document.body.classList.toggle('is-overlay');
     });
   }
+  // ------------------------------------
+  // ScrollTrigger
+  // ------------------------------------
+  const trigger = new ScrollTrigger.default({
+    trigger: {
+      once: true
+    }
+  })
+  trigger.add('[data-trigger]');
 });

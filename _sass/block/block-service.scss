@@ -3,15 +3,15 @@
 */
 .block-service {
   .block-service__content {
-    h2{
+    .title{
       margin: 0;
-      font-size: 24px;
+      font-size: 3rem;
       font-weight: bold;
     }
-    p{
+    .description{
       margin-top: 15px;
       margin-bottom: 0;
-      font-size: 16px;
+      font-size: 1.2rem;
     }
   }
 }
