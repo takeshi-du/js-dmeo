@@ -1,12 +1,17 @@
 <section>
-  <div class="slick-slider">
+  <div class="slick-slideshow">
     <img src="https://placehold.it/1200x500" alt="slide">
     <img src="https://placehold.it/1200x500" alt="slide">
     <img src="https://placehold.it/1200x500" alt="slide">
   </div>
+  <style>
+    .slick-slideshow {
+      overflow: hidden;
+    }
+  </style>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.slick-slider').slick({
+      $('.slick-slideshow').slick({
         autoplay: true,
         autoplaySpeed: 2000,
       });
