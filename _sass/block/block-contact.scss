@@ -1,3 +1,22 @@
 /*
 * === block-contact ===
 */
+.block-contact {
+  input,textarea {
+    border: 1px solid #eee;
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  input {
+    &[type="radio"],&[type="checkbox"] {
+      width: auto;
+    }
+  }
+  label {
+    margin: 0;
+  }
+  .row {
+    margin-bottom: 15px;
+  }
+}
