@@ -1,0 +1,26 @@
+/*
+* === block-footer ===
+*/
+.block-footer {
+  text-align: center;
+  padding: 15px 0;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #111111;
+  p {
+    margin: 0;
+  }
+  a {
+    color: #ffffff;
+    &:hover {
+      color: #cccccc;
+    }
+  }
+  .nav {
+    justify-content: center;
+    margin-bottom: 15px;
+    li {
+      padding: 0 10px;
+    }
+  }
+}
