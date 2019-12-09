@@ -1,3 +1,4 @@
+// javascript
 window.addEventListener('load', function() {
   // ------------------------------------
   // switch
@@ -44,4 +45,21 @@ window.addEventListener('load', function() {
     }
   })
   trigger.add('[data-trigger]');
+});
+
+// jQuery
+$(document).ready(function(){
+  // ------------------------------------
+  // SlickSlider
+  // ------------------------------------
+  $('.slick-slideshow').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+  // ------------------------------------
+  // Parallax
+  // ------------------------------------
+  $('.parallax-window').parallax({
+    imageSrc: 'https://placehold.it/1200x600'
+  });
 });
