@@ -45,6 +45,14 @@ window.addEventListener('load', function() {
     }
   })
   trigger.add('[data-trigger]');
+
+  // ------------------------------------
+  // Lazyload
+  // ------------------------------------
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    load_delay: 800
+  });
 });
 
 // jQuery
