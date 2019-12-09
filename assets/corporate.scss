@@ -1,0 +1,44 @@
+---
+---
+
+@charset "UTF-8";
+
+@import "mixins/grid-functions";
+@import "variables";
+
+@import "mixins/breakpoints";
+@import "mixins/grid-framework";
+@import "mixins/grid";
+
+// @import "bst4/normalize";
+@import "bst4/reset";
+@import "bst4/grid";
+@import "bst4/display";
+@import "bst4/flex";
+@import "bst4/spacing";
+@import "bst4/nav";
+
+/*
+* === global ===
+*/
+html {
+  font-size: $font-size-root;
+}
+body {
+  font-family: $font-family !important;
+}
+// text color
+body {
+  color: $color_body;
+}
+a {
+  color: $color_link;
+  transition: 300ms ease;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: $link_hover_text_decolation;
+}
+
+// @import 'components/components';
+// @import 'corporate/styles';
