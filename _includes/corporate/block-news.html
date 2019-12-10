@@ -1,1 +1,18 @@
-<h1>news</h1>
+<section class="block-news">
+  <div class="block-header">
+    <h2 class="title">NEWS</h2>
+    <p class="sub-title">お知らせ</p>
+  </div>
+  <div class="block-body">
+    <div class="container">
+      <ul>
+        {% for i in (1..5) %}
+        <li>
+          <span class="date">2020.1.8</span>
+          <span class="title">お知らせの内容をここに記入します。お知らせの内容をここに記入します。</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
