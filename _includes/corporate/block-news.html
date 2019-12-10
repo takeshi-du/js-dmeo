@@ -1,15 +1,17 @@
 <section class="block-news">
-  <div class="block-header">
-    <h2 class="title">NEWS</h2>
-    <p class="sub-title">お知らせ</p>
+  <div class="block-news__header">
+    <div class="c-title">
+      <h2 class="title">NEWS</h2>
+      <p class="sub-title">お知らせ</p>
+    </div>
   </div>
-  <div class="block-body">
+  <div class="block-news__body">
     <div class="container">
-      <ul>
+      <ul class="nav flex-column">
         {% for i in (1..5) %}
         <li>
           <span class="date">2020.1.8</span>
-          <span class="title">お知らせの内容をここに記入します。お知らせの内容をここに記入します。</span>
+          <a class="title" href="#">お知らせの内容をここに記入します。お知らせの内容をここに記入します。</a>
         </li>
         {% endfor %}
       </ul>
