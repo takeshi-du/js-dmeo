@@ -53,6 +53,13 @@ window.addEventListener('load', function() {
     elements_selector: ".lazy",
     load_delay: 800
   });
+
+  // ------------------------------------
+  // SmoothScroll
+  // ------------------------------------
+  var scroll = new SmoothScroll('a[href*="#"]',{
+    offset: 80
+  });
 });
 
 // jQuery
