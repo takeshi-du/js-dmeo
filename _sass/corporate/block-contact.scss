@@ -31,12 +31,11 @@
     margin-bottom: 15px;
   }
   .btn {
-    background-color: transparent;
+    background-color: #151515;
     color: #ffffff;
-    border: 1px solid #fff;
     padding: 8px 32px;
-    border-radius: 3px;
     transition: .3s;
+    border: none;
     &:hover {
       background-color: #fff;
       color: #151515;

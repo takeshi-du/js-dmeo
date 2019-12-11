@@ -67,7 +67,22 @@ $(document).ready(function(){
   // ------------------------------------
   // Parallax
   // ------------------------------------
-  $('.parallax-window').parallax({
-    imageSrc: 'https://placehold.it/1200x600'
-  });
+  $('.parallax-window').parallax();
+  // ------------------------------------
+  // ScrollTop
+  // ------------------------------------
+  var status = "";
+	var b_head = $(".block-header").height();
+	$(window).scroll(function() {
+		
+		var top = $(window).scrollTop();
+		
+		if (top > b_head && status != "white") {
+			$(".block-header").addClass("is-active");
+			status = "white";
+		} else if (top <= b_head && status != "transparent") {
+			$(".block-header").removeClass("is-active");
+			status = "transparent";
+		}
+	});
 });
