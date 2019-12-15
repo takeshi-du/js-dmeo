@@ -1,0 +1,26 @@
+<section class="block-work block-padding">
+  <div class="block-header">
+    <div class="section-title">
+      <h1 class="title">CODING</h1>
+      <p class="sub-title">コーディングの実績</p>
+    </div>
+  </div>
+  <div class="block-body">
+    <div class="container">
+      <div class="row">
+        {% for item in site.data.portfolio.code %}
+        <div class="col-6 col-lg-6">
+          <div class="block-work__image">
+            <img class="img-fluid" src="{{ item.image }}" alt="image">
+          </div>
+          <div class="block-work__content">
+            <h2 class="title">{{ item.title }}</h2>
+            <p class="text">{{ item.text }}</p>
+            <a data-lity href="https://demo.homupedia.com/portfolio/design/top.png">詳細を見る</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

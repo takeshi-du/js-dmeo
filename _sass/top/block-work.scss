@@ -1,0 +1,19 @@
+/*
+* === block-work ===
+*/
+.block-work {
+  .block-work__content {
+    padding: 15px;
+    margin-bottom: 30px;
+    .title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .text {
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+  }
+}
