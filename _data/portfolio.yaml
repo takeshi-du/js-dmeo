@@ -2,11 +2,11 @@ code:
   - image: https://demo.homupedia.com/portfolio/design/t-corp-medi.png
     title: B2Bサイトのデザイン〜Wordpress構築
     text: B2Bサイトのデザインからコーディング、Wordpress構築までを担当しました。レスポンシブ対応。制作期間３週間。
-    url: #
+    url: https://demo.homupedia.com/portfolio/design/corp-medi.png
   - image: https://demo.homupedia.com/portfolio/design/t-eccube4.png
     title: Bootstrap4対応、EC-CUBE4向けテンプレート
     text: Bootstrap4に対応したEC-CUBE4向けテンプレートを作成しました。レスポンシブ対応。制作期間１週間。
-    url: #
+    url: http://demo.homupedia.com/eccube4/
   - image: https://demo.homupedia.com/portfolio/design/t-colorme.png
     title: カラーミーショップテンプレート
     text: カラーミーショップ向けのテンプレートを制作しました。カラーミーキットをベースにレスポンシブに対応したテンプレートになっています。制作期間２週間。
