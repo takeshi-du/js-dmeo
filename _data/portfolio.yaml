@@ -1,30 +1,39 @@
 code: 
-  - image: https://placehold.it/800x400
+  - image: https://demo.homupedia.com/portfolio/design/t-corp-medi.png
     title: B2Bサイトのデザイン〜Wordpress構築
-    text: テキスト１
-  - image: https://placehold.it/800x400
-    title: EC-CUBE4向けテンプレート
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: B2Bサイトのデザインからコーディング、Wordpress構築までを担当しました。レスポンシブ対応。制作期間３週間。
+    url: #
+  - image: https://demo.homupedia.com/portfolio/design/t-eccube4.png
+    title: Bootstrap4対応、EC-CUBE4向けテンプレート
+    text: Bootstrap4に対応したEC-CUBE4向けテンプレートを作成しました。レスポンシブ対応。制作期間１週間。
+    url: #
+  - image: https://demo.homupedia.com/portfolio/design/t-colorme.png
     title: カラーミーショップテンプレート
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: カラーミーショップ向けのテンプレートを制作しました。カラーミーキットをベースにレスポンシブに対応したテンプレートになっています。制作期間２週間。
+    url: https://demo.homupedia.com/colorme/beat/
+  - image: https://demo.homupedia.com/portfolio/design/t-base.png
     title: BASEテーマ
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: BASE向けテンプレートを制作しました。こちらはBootstrap4で制作しています。制作期間２週間。
+    url: https://design.thebase.in/detail/44
+  - image: https://demo.homupedia.com/portfolio/design/t-corp-code.png
     title: コーポレートサイト（デモ）
-    text: テキスト１
+    text: コーディングの技術デモ用に作成したページです。JavascripやjQueryを使ったインタラクティブなサイトコーディングができます。制作期間３日。
+    url: ../demo/corporate/
 
 design: 
-  - image: https://placehold.it/800x400
+  - image: https://demo.homupedia.com/portfolio/design/t-educate.png
     title: 学習塾のサイトリニューアル
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: 学習サイトのデザインを制作しました。デザインのリニューアルなので、既存のコンテンツを再利用できるようにデザインしています。制作期間２日。
+    url: https://demo.homupedia.com/portfolio/design/educate.png
+  - image: https://demo.homupedia.com/portfolio/design/t-corp.png
     title: コーポレートサイトのサイトリニューアル
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: こちらはコーポレートサイトのリニューアルのデザインです。情報が伝わりやすいようなレイアウトやコンテンツ構造になるようにしています。制作期間２日。
+    url: https://demo.homupedia.com/portfolio/design/corp.png
+  - image: https://demo.homupedia.com/portfolio/design/t-recruit.png
     title: 求人サイトのヘッダーデザイン
-    text: テキスト１
-  - image: https://placehold.it/800x400
+    text: サイトのヘッダー部分のみのデザインを担当しました。制作期間１日。
+    url: https://demo.homupedia.com/portfolio/design/recruit.png
+  - image: https://demo.homupedia.com/portfolio/design/t-eccube4.png
     title: EC-CUBE4 テンプレートデザイン
-    text: テキスト１
+    text: EC-CUBE4向けテンプレートデザインです。デフォルトよりもシンプルでモダンなデザインにしてみました。デザインをテンプレート化したものも配布中です。
+    url: https://demo.homupedia.com/portfolio/design/eccube4.png

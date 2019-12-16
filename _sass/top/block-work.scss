@@ -2,6 +2,9 @@
 * === block-work ===
 */
 .block-work {
+  .block-work__image {
+    border: 1px solid #eee;
+  }
   .block-work__content {
     padding: 15px;
     margin-bottom: 30px;
@@ -13,6 +16,11 @@
     .text {
       margin-top: 10px;
       margin-bottom: 0;
+      font-size: 14px;
+    }
+    .link {
+      display: inline-block;
+      margin-top: 10px;
       font-size: 14px;
     }
   }
