@@ -1,6 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+memo.md
 
 .sass-cache
 .jekyll-metadata
